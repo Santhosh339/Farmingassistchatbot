@@ -1,0 +1,100 @@
+Video ID: 85oMrKd8afY
+Transcript:
+For two computers to communicate with each 
+other securely, a common strategy is to   ensure both parties have a shared piece 
+of information, known as a secret key. With a secret key, one computer can encrypt a 
+message using that key, then send the message   in public to the intended recipient. As 
+long as the recipient also has that key,   they can use that key to decrypt the message. 
+This is known as symmetric key cryptography. In this approach, it’s important that nobody else   ever has access to the secret key, since that 
+would mean they could decrypt the messages too. But how do the two computers agree on a secret 
+key in the first place? One computer could pick a   secret key, and then try to send it to the other. 
+But if that key is sent over a public channel,   then an eavesdropper could easily intercept 
+the key and make a copy for themselves. Diffie-Hellman key exchange is one 
+strategy to solve this problem. It’s   a protocol that allows two parties to agree 
+on a secret key by communicating publicly,   without revealing that secret key to anyone 
+who might be listening to the communication. What exactly is this secret key? In cryptography, 
+the secret key is really just a big number. So, how could you and a friend 
+agree on a secret number that   nobody else knows? We’ve established 
+that if you pick the secret number,   you can’t just send it to your friend directly 
+without exposing the secret to an eavesdropper. But what if you each pick a secret number instead? 
+Now you each have some secret information. But   it's not that useful yet, since ultimately you 
+both need to have the same secret information. The goal, then, will be to find some way 
+to combine your two secret numbers to get   a new shared secret number, without ever 
+sharing your original secrets in public. Here's one way we might try to do this. Now,   what we're about to try will have a major 
+flaw — and hopefully you'll see what that   flaw is — but thinking about it will help us 
+understand what makes Diffie-Hellman work. So here's the idea. You and your friend both 
+start by picking the same initial number.   Since you have to agree on the same number, 
+this number won't be secret: anyone watching   your communication knows what it is. But you and 
+your friend will also each pick a secret number. You know you don't want to share your 
+secret number publicly. So instead,   you combine the secret number with the 
+initial number by adding the two together;   and your friend does the same thing. Now,   instead of sending your secret number publicly, 
+you each share the sum you've calculated. What you receive from your friend isn't their 
+secret number, it's a sum. And then you add   your own secret number to this sum to get 
+a new sum. Your friend does the same thing,   adding their secret number 
+to the sum they received. At the end of the process, you've 
+both arrived a shared secret number,   without needing to share your original 
+secrets. This works because the order   in which you added your secrets didn't 
+matter: adding your secret and then your   friend's gives the same result as adding 
+your friend's secret and then yours. But this is not a secure way to agree on 
+a secret key. Even though you've never   shared your original secret number directly, 
+it's not hard for an attacker to determine   it. Since the initial number isn't a 
+secret, and since you shared the sum   of the initial number and your 
+secret number publicly, an attacker   can reverse your operation by subtracting 
+the initial number, revealing your secret. In other words, addition isn't a 
+good candidate for securing your   secret here because it's easily inverted. 
+If only it were hard to undo the addition,   then this protocol could be a secure option. Diffie-Hellman works not by using addition, 
+but by using a different operation — one   that's easy to calculate, but difficult to 
+invert — and that's modular exponentiation. Modular exponentiation involves taking a base 
+and raising it to the power of an exponent,   and then taking the remainder when 
+divided by some modulus. For example,   consider raising 3 to the 4th power, 
+modulo 19. 3 to the 4th power is 81,   and the remainder when dividing 81 
+by 19 gives us a final answer of 5. As we start dealing with bigger exponents,   it gets computationally expensive to multiply 
+together increasingly large numbers. To help,   it turns out there are more efficient 
+ways to calculate modular exponents. One simple way is to perform the modulo 
+operation at each step in the repeated   multiplication. So for 3 to the 4th power 
+modulo 19, we'd keep multiplying 3 by itself,   but after each multiplication 
+we'd take the result modulo 19.   This keeps our numbers small but still 
+lets us arrive at the same answer. There are even more efficient strategies too, but 
+the crucial piece here is that while it's easy to   calculate a modular exponent, it turns out to be 
+quite difficult to do the reverse. If you have   the result of modular exponentiation, and you have 
+the original base, and you were asked to find what   the exponent was, it's not obvious where you would 
+even begin other than by guessing. This problem,   known as the discrete logarithm problem, 
+doesn't have a known general efficient solution. This makes modular exponentiation a good 
+choice for use in cryptography. The base   and the modulus can be known publicly 
+— as long as the exponent is secret,   we can perform modular exponentiation and 
+there's no easy way to reverse the process. So, let's put this all together 
+and see how Diffie-Hellman works. First, you and your friend agree on a base 
+number and a modulus — in this case the base   is 2 and the modulus is 19. It's fine to share 
+these publicly, they're not meant to be secret. Then, you and your friend each choose a 
+secret number that you don't share with   anyone. You take the base to the power of 
+your secret number, modulo 19. Your friend   takes the same base to the power of their 
+secret number, over the same modulus 19. You then share these modular 
+exponents with each other. Since the   process isn't easily reversed, even 
+if an attacker sees these values,   they have no easy way of knowing what 
+either of your secret numbers are. But when you receive the value from your friend,   you take that number to the power 
+of your secret number, modulo 19.   And your friend takes the number you sent to 
+the power of their secret number, modulo 19. At the end of it, you both end up with the same 
+number — since the base was raised to the power of   both of your original secrets, just in different 
+orders. This new number is your shared secret key:   you and your friend both share it, but an attacker 
+has no easy way to know what it is — even though   they could see the base, the modulus, and 
+both of the intermediate modular exponents. There are some rules we need to put in 
+place to make this process secure. First,   the modulus needs to be a big number — 
+ideally thousands of bits long — so that   it can't be attacked by brute force. 
+And it should be a big prime number,   too, since it turns out if the number can 
+be factored then it's easier to reverse. The base doesn't have to be big, but to 
+make it secure, we do want to pick a base   that can produce as many different remainder 
+values for the shared secret key as possible. For example, if we're taking exponents 
+modulo 19, we can see that 1 would be a   very bad choice of base. No matter what exponent 
+we pick, 1 to that power modulo 19 will always   give a remainder of 1. So, the attacker would 
+know right away what the shared secret key is. A base of 4 looks better, but it actually still 
+isn't great. 4 raised to a power modulo 19 can   generate some different values for the 
+shared secret key, but it can't generate   all the possible remainder values. That 
+makes it easier to attack by brute force. A base of 3 would work better, since there 
+are exponents that result in all of the   possible remainders between 1 
+and 18. This is what's known as   a primitive root modulo our prime 19, 
+and it's helpful for security because   it leaves open a lot of possibilities 
+for what the shared secret could be. These properties make Diffie-Hellman a secure 
+and useful strategy for letting two parties   communicate with each other securely. It's used 
+all the time in securing internet communications,   for example, letting computers far 
+away from each other communicate   without giving any attackers in between the 
+ability to eavesdrop on what's being said.

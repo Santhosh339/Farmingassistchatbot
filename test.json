@@ -1,0 +1,275 @@
+[
+  {
+    "question": "What should I do to improve my soil's health?",
+    "answer": "You can try adding organic matter, like compost or manure, and consider planting cover crops."
+  },
+  {
+    "question": "Which fertilizer should I use for vegetables?",
+    "answer": "That depends on the type of vegetables. A balanced NPK fertilizer like 10-10-10 works for most crops."
+  },
+  {
+    "question": "How do I deal with pests naturally?",
+    "answer": "You can use neem oil or introduce beneficial insects like ladybugs to control pests naturally."
+  },
+  {
+    "question": "What are the benefits of crop rotation?",
+    "answer": "Crop rotation prevents soil depletion, reduces pests, and increases soil fertility over time."
+  },
+  {
+    "question": "Is organic farming better than conventional farming?",
+    "answer": "Organic farming is better for the environment and soil health, but it might require more effort and have lower yields."
+  },
+  {
+    "question": "How do I start a greenhouse?",
+    "answer": "Begin by choosing a suitable location, installing proper ventilation, and selecting crops that thrive in controlled environments."
+  },
+  {
+    "question": "What's the best irrigation system for small farms?",
+    "answer": "Drip irrigation is cost-effective and conserves water, making it ideal for small farms."
+  },
+  {
+    "question": "How do I prevent weeds from overtaking my crops?",
+    "answer": "Use mulch to suppress weeds, practice crop rotation, and consider manual or mechanical weeding."
+  },
+  {
+    "question": "Can you explain soil pH and its importance?",
+    "answer": "Soil pH affects nutrient availability to plants. Most crops prefer a pH between 6.0 and 7.5."
+  },
+  {
+    "question": "What's the best time to plant tomatoes?",
+    "answer": "Tomatoes grow best when planted after the last frost and when the soil temperature is above 60°F (16°C)."
+  },
+  {
+    "question": "Why is composting important for farms?",
+    "answer": "Composting recycles organic waste into nutrient-rich material that improves soil structure and fertility."
+  },
+  {
+    "question": "How do I manage water usage efficiently?",
+    "answer": "Install a drip irrigation system, water during cooler parts of the day, and collect rainwater for irrigation."
+  },
+  {
+    "question": "What are the signs of nutrient deficiency in plants?",
+    "answer": "Yellowing leaves indicate nitrogen deficiency, while purple leaves may point to phosphorus deficiency."
+  },
+  {
+    "question": "What is permaculture farming?",
+    "answer": "Permaculture is a sustainable farming approach that mimics natural ecosystems to maximize efficiency and biodiversity."
+  },
+  {
+    "question": "How can I control fungal diseases in crops?",
+    "answer": "Use fungicides, ensure proper plant spacing, and avoid overhead watering to reduce humidity around plants."
+  },
+  {
+    "question": "What's the best crop for sandy soil?",
+    "answer": "Crops like carrots, peanuts, and watermelon thrive in sandy soil due to its good drainage."
+  },
+  {
+    "question": "Can I grow crops without soil?",
+    "answer": "Yes, you can use hydroponics or aquaponics systems to grow crops without soil."
+  },
+  {
+    "question": "What are some sustainable farming practices?",
+    "answer": "Crop rotation, agroforestry, reduced tillage, and using renewable energy are key sustainable farming practices."
+  },
+  {
+    "question": "What is the role of cover crops?",
+    "answer": "Cover crops prevent soil erosion, improve soil fertility, and suppress weeds during off-season periods."
+  },
+  {
+    "question": "How can I increase crop yield on a small farm?",
+    "answer": "Focus on soil health, use high-yield seed varieties, optimize irrigation, and control pests effectively."
+  },
+  {
+    "question": "Why is biodiversity important in farming?",
+    "answer": "Biodiversity promotes a balanced ecosystem, reduces pests, and improves resilience against climate change."
+  },
+  {
+    "question": "What should I do if my plants are wilting?",
+    "answer": "Check for overwatering or underwatering, inspect roots for disease, and ensure adequate sunlight."
+  },
+  {
+    "question": "How can I start a beekeeping project on my farm?",
+    "answer": "Start by setting up hives, planting pollinator-friendly plants, and ensuring a nearby water source."
+  },
+  {
+    "question": "What is the benefit of using raised beds?",
+    "answer": "Raised beds improve drainage, reduce soil compaction, and allow for better soil control."
+  },
+  {
+    "question": "What tools do I need for small-scale farming?",
+    "answer": "Essential tools include a hoe, rake, spade, watering can, and hand pruners."
+  },
+  {
+    "question": "Can crop spacing affect yield?",
+    "answer": "Yes, proper spacing ensures plants have enough nutrients, sunlight, and air circulation for optimal growth."
+  },
+  {
+    "question": "How do I know if my soil needs fertilizer?",
+    "answer": "Conduct a soil test to determine nutrient deficiencies and decide the type of fertilizer required."
+  },
+  {
+    "question": "What are companion plants, and why are they useful?",
+    "answer": "Companion plants are crops that benefit each other when grown together, improving growth and pest resistance."
+  },
+  {
+    "question": "How do I attract pollinators to my farm?",
+    "answer": "Plant flowers like sunflowers and lavender, avoid pesticides, and provide habitats for bees and butterflies."
+  },
+  {
+    "question": "What's the best way to store harvested crops?",
+    "answer": "Store crops in a cool, dry, and ventilated space to prevent spoilage and maintain freshness."
+  },
+  
+    {
+      "question": "What is the ideal temperature for growing lettuce?",
+      "answer": "Lettuce grows best in temperatures between 60°F and 70°F (15°C to 21°C)."
+    },
+    {
+      "question": "How can I reduce water evaporation in my fields?",
+      "answer": "You can use mulch, water during the early morning or evening, and plant drought-resistant crops."
+    },
+    {
+      "question": "What are the common pests that affect maize crops?",
+      "answer": "Common pests include corn borers, armyworms, and rootworms."
+    },
+    {
+      "question": "How can I identify if my crops are overwatered?",
+      "answer": "Look for symptoms like yellowing leaves, wilting, or soggy soil around the roots."
+    },
+    {
+      "question": "What is intercropping, and why is it beneficial?",
+      "answer": "Intercropping is growing two or more crops together to maximize space, control pests, and improve soil health."
+    },
+    {
+      "question": "What should I do if my farm experiences heavy rainfall?",
+      "answer": "Ensure proper drainage, use raised beds, and apply mulch to prevent soil erosion."
+    },
+    {
+      "question": "How do I test my soil for nutrients?",
+      "answer": "Use a soil testing kit or send a sample to a lab to measure pH and nutrient levels."
+    },
+    {
+      "question": "What is no-till farming?",
+      "answer": "No-till farming is a method of growing crops without disturbing the soil through tillage, reducing erosion and preserving soil structure."
+    },
+    {
+      "question": "Can you suggest drought-resistant crops?",
+      "answer": "Drought-resistant crops include millet, sorghum, chickpeas, and certain types of beans."
+    },
+    {
+      "question": "What are the benefits of agroforestry?",
+      "answer": "Agroforestry improves biodiversity, reduces soil erosion, and provides shade for crops."
+    },
+    {
+      "question": "How do I protect my crops from frost?",
+      "answer": "Use row covers, water the soil before frost, and add mulch to retain heat."
+    },
+    {
+      "question": "What is precision agriculture?",
+      "answer": "Precision agriculture uses technology like GPS and sensors to optimize field management and increase productivity."
+    },
+    {
+      "question": "How can I detect and prevent root rot?",
+      "answer": "Ensure proper drainage, avoid overwatering, and rotate crops to prevent fungal infections."
+    },
+    {
+      "question": "What crops can I grow in acidic soil?",
+      "answer": "Crops like blueberries, potatoes, and radishes thrive in acidic soil."
+    },
+    {
+      "question": "What is a good crop rotation plan for grains?",
+      "answer": "Rotate grains with legumes like beans or lentils to fix nitrogen and replenish the soil."
+    },
+    {
+      "question": "How can I minimize post-harvest losses?",
+      "answer": "Store crops in clean, dry conditions, use airtight containers, and ensure proper ventilation."
+    },
+    {
+      "question": "What is the best way to control aphids on plants?",
+      "answer": "Use insecticidal soap, introduce ladybugs, or spray with a mixture of water and mild soap."
+    },
+    {
+      "question": "How do I know if my irrigation system is efficient?",
+      "answer": "Check for uniform water distribution, minimal runoff, and reduced evaporation loss."
+    },
+    {
+      "question": "What is the difference between organic and inorganic fertilizers?",
+      "answer": "Organic fertilizers come from natural sources like compost, while inorganic fertilizers are chemically synthesized."
+    },
+    {
+      "question": "What are the benefits of drip irrigation?",
+      "answer": "Drip irrigation saves water, reduces weed growth, and delivers nutrients directly to plant roots."
+    },
+    {
+      "question": "How do I handle saline soil?",
+      "answer": "Use salt-tolerant crops, apply gypsum to leach salts, and improve drainage."
+    },
+    {
+      "question": "What is the best way to compost farm waste?",
+      "answer": "Layer green waste (nitrogen-rich) and brown waste (carbon-rich), keep it moist, and turn it regularly for aeration."
+    },
+    {
+      "question": "How can I encourage earthworms in my soil?",
+      "answer": "Avoid chemical pesticides, keep the soil moist, and add organic matter like compost."
+    },
+    {
+      "question": "What are the key signs of heat stress in crops?",
+      "answer": "Wilting, leaf curling, and premature fruit drop are signs of heat stress in crops."
+    },
+    {
+      "question": "How do I plan crop harvesting schedules?",
+      "answer": "Base your schedule on crop maturity dates, weather forecasts, and market demand."
+    },
+    {
+      "question": "What are some common diseases in rice plants?",
+      "answer": "Blast disease, sheath blight, and bacterial leaf blight are common diseases in rice plants."
+    },
+    {
+      "question": "Can you explain the benefits of cover cropping?",
+      "answer": "Cover cropping reduces erosion, suppresses weeds, and enhances soil organic matter."
+    },
+    {
+      "question": "What are natural ways to enrich sandy soil?",
+      "answer": "Add organic matter like compost, use mulch, and plant cover crops to retain moisture."
+    },
+    {
+      "question": "How do I choose the best seeds for my farm?",
+      "answer": "Choose seeds based on climate, soil type, pest resistance, and yield potential."
+    },
+    {
+      "question": "What are the signs of magnesium deficiency in plants?",
+      "answer": "Yellowing between leaf veins and curling leaf edges are signs of magnesium deficiency."
+    },
+    {
+      "question": "How do I maintain my farming equipment?",
+      "answer": "Clean tools regularly, oil moving parts, and store equipment in a dry area to prevent rust."
+    },
+    {
+      "question": "How can I start vermicomposting?",
+      "answer": "Set up a bin, add bedding material, introduce worms, and feed them organic waste like fruit and vegetable scraps."
+    },
+    {
+      "question": "What are integrated pest management (IPM) techniques?",
+      "answer": "IPM combines biological control, crop rotation, and minimal chemical use to manage pests sustainably."
+    },
+    {
+      "question": "How do I attract birds that help control pests?",
+      "answer": "Plant trees, provide water sources, and avoid using pesticides to create a bird-friendly environment."
+    },
+    {
+      "question": "What crops can I plant in cold climates?",
+      "answer": "Crops like kale, spinach, and carrots are well-suited for cold climates."
+    },
+    {
+      "question": "How do I protect young plants from strong winds?",
+      "answer": "Use windbreaks like hedges, install protective netting, or plant taller crops as a shield."
+    },
+    {
+      "question": "What are the advantages of using organic mulch?",
+      "answer": "Organic mulch retains soil moisture, suppresses weeds, and improves soil fertility as it decomposes."
+    },
+    {
+      "question": "What is the best way to prepare land for farming?",
+      "answer": "Clear debris, till the soil, test for nutrients, and apply amendments like compost or fertilizers as needed."
+    }
+]
