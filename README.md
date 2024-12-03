@@ -23,8 +23,7 @@ Why Use This Chatbot?
 Tech Stack: 
 - **Natural Language Processing (NLP)**: Enables intelligent and context-aware responses.
 - **Machine Learning**: Powers personalized recommendations based on user inputs.
-- **Backend**: Python/Node.js (specify as per your project).
-- **Frontend**: Web-based or mobile app interface.
+- **Backend**: Python/Node.js (specify as per your project)
 
 Future Enhancements: 
 - Integration with IoT for smart farming advice.
